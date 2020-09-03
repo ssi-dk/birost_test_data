@@ -1,4 +1,4 @@
-
+#/bin/bash
 # Per sample script example
 echo "Running $sample.name from $run.name";
 BIFROST_RAW_DATA_MNT="/bifrost_test_data/data/";
