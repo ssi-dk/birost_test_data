@@ -5,4 +5,4 @@ BIFROST_DIR=$PWD; \
 cd read_data; \
 bash download_S1.sh; \
 cd $BIFROST_DIR/output; \
-docker run --mount type=bind,source=$BIFROST_DIR,target=$BIFROST_DIR ssidk/ bifrost_run_launcher:latest --install; 
+docker run --env BIFROST_DB_KEY --mount type=bind,source=$BIFROST_DIR,target=$BIFROST_DIR ssidk/ bifrost_run_launcher:latest --install; 
