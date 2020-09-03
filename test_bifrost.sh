@@ -1,9 +1,8 @@
 #/bin/bash
 #pass mongodb key as variable
-export BIFROST_DB_KEY=$1; \
-git clone https://github.com/ssi-dk/bifrost_test_data.git bifrost_test_data; \
+BIFROST_DB_KEY="${BIFROST_DB_KEY:$1}"
 BIFROST_DIR=$PWD; \
-cd bifrost_test_data/read_data; \
+cd read_data; \
 bash download_S1.sh; \
-cd ../output; \
+cd $PWD/output; \
 docker run --mount type=bind,source=$BIFROST_DIR,target=$BIFROST_DIR ssidk/ bifrost_run_launcher:latest --install; 

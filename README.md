@@ -3,12 +3,10 @@ This will be the repo for setting up test data for the bifrost_components relate
 
 # Testing bifrost
 ```
-export BIFROST_DB_KEY=mongodb://<your credentials here>; \
-git clone https://github.com/ssi-dk/bifrost_test_data.git bifrost_test_data; \
-BIFROST_DIR=$PWD; \
-cd bifrost_test_data/read_data; \
-bash download_S1.sh; \
-cd ../output; \
-docker run --mount type=bind,source=$BIFROST_DIR,target=$BIFROST_DIR ssidk/ bifrost_run_launcher:latest --install; 
-
+export BIFROST_DB_KEY=<mongo_db_key>
+./test_bifrost.sh
+```
+or
+```
+./test_bifrost.sh <mongo_db_key>
 ```
