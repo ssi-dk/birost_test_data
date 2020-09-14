@@ -8,7 +8,7 @@ cd $BIFROST_DIR; \
 docker run \
     --env BIFROST_DB_KEY \
     --mount type=bind,source=$BIFROST_DIR,target=$BIFROST_DIR \
-    ssidk/bifrost_run_launcher:latest \
+    ssidk/bifrost_run_launcher:v2.0.9__NA \
         -pre $BIFROST_DIR/pre.sh \
         -per $BIFROST_DIR/per_sample.sh \
         -post $BIFROST_DIR/post.sh \
