@@ -17,7 +17,7 @@ docker run \
         -name bifrost_test \
         -out $BIFROST_DIR/output; 
 # for IMAGE in bifrost_min_read_check
-for IMAGE in bifrost_min_read_check bifrost_whats_my_species bifrost_assemblatron bifrost_ssi_stamper bifrost_cge_mlst bifrost_cge_resfinder bifrost_ariba_virulencefinder bifrost_ariba_plasmidfinder
+for IMAGE in bifrost_min_read_check bifrost_whats_my_species bifrost_assemblatron bifrost_ssi_stamper bifrost_ariba_mlst bifrost_ariba_resfinder bifrost_ariba_virulencefinder bifrost_ariba_plasmidfinder
 do
     echo "Downloading and installing $IMAGE"
     docker run \
