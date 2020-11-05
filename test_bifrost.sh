@@ -1,8 +1,8 @@
 #/bin/bash
 #pass mongodb key as variable
 export BIFROST_DB_KEY="${BIFROST_DB_KEY:-$1}"
-BIFROST_RUN_DIR="${BIFROST_RUN_DIR:-$PWD}"; \
-BIFROST_CONFIG_DIR="${BIFROST_CONFIG_DIR:-$PWD}"; \
+export BIFROST_RUN_DIR="${BIFROST_RUN_DIR:-$PWD}"; \
+export BIFROST_CONFIG_DIR="${BIFROST_CONFIG_DIR:-$PWD}"; \
 cd read_data; \
 bash download_S1.sh; \
 cd $BIFROST_RUN_DIR; \
