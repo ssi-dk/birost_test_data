@@ -27,5 +27,5 @@ do
         --install;
 done
 
-cd output;
+cd bifrost_test_output;
 bash run_script.sh;
