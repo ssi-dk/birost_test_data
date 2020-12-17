@@ -3,7 +3,7 @@
 export BIFROST_DB_KEY="${BIFROST_DB_KEY:-$1}"
 export BIFROST_RUN_DIR="${BIFROST_RUN_DIR:-$PWD}"; \
 export BIFROST_CONFIG_DIR="${BIFROST_CONFIG_DIR:-$PWD}"; \
-cd read_data; \
+cd samples; \
 bash download_S1.sh; \
 cd $BIFROST_RUN_DIR; \
 docker run \
@@ -13,7 +13,7 @@ docker run \
         -pre $BIFROST_CONFIG_DIR/pre.sh \
         -per $BIFROST_CONFIG_DIR/per_sample.sh \
         -post $BIFROST_CONFIG_DIR/post.sh \
-        -reads $BIFROST_RUN_DIR/read_data \
+        -reads $BIFROST_RUN_DIR/samples \
         -meta $BIFROST_RUN_DIR/run_metadata.tsv \
         -name bifrost_test \
         -out $BIFROST_RUN_DIR/bifrost_test_output; 

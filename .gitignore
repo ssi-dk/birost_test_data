@@ -1,9 +1,7 @@
 .secrets/
-read_data/*.fastq.gz
-run_script.sh
-run.yaml
-samples.yaml
-S*/
+samples/*.fastq.gz
+output/*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
