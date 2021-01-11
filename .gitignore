@@ -1,6 +1,7 @@
 .secrets/
 samples/*.fastq.gz
 output/*
+!output/info.txt
 
 
 # Byte-compiled / optimized / DLL files
