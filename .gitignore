@@ -2,7 +2,8 @@
 samples/*.fastq.gz
 output/*
 !output/info.txt
-
+computerome/launcher_scripts/test_post.sh
+deployment_test/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
