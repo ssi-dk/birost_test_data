@@ -3,6 +3,7 @@
 export BIFROST_DB_KEY="${BIFROST_DB_KEY:-$1}"
 export BIFROST_RUN_DIR="${BIFROST_RUN_DIR:-$PWD}"; \
 export BIFROST_CONFIG_DIR="${BIFROST_CONFIG_DIR:-$PWD}"; \
+export BIFROST_DIR=`pwd`; \
 cd samples; \
 bash download_S1.sh; \
 cd $BIFROST_RUN_DIR; \
