@@ -7,6 +7,7 @@ export BIFROST_DIR=`pwd`; \
 cd samples; \
 bash download_S1.sh; \
 cd $BIFROST_RUN_DIR; \
+mkdir $BIFROST_RUN_DIR/bifrost_test_output;
 docker run \
     --env BIFROST_DB_KEY \
     --mount type=bind,source=$BIFROST_RUN_DIR,target=$BIFROST_RUN_DIR \
