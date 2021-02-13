@@ -15,7 +15,7 @@ docker run \
         -post $BIFROST_CONFIG_DIR/post.sh \
         -reads $BIFROST_RUN_DIR/samples \
         -meta $BIFROST_RUN_DIR/run_metadata.tsv \
-        -name bifrost_test \
+        -name "`date`" \
         -out $BIFROST_RUN_DIR/bifrost_test_output; 
 # for IMAGE in bifrost_min_read_check
 for IMAGE in bifrost_min_read_check bifrost_whats_my_species bifrost_assemblatron bifrost_ssi_stamper bifrost_ariba_mlst bifrost_ariba_resfinder bifrost_ariba_virulencefinder bifrost_ariba_plasmidfinder
