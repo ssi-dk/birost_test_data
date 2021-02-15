@@ -5,10 +5,10 @@ export BIFROST_RUN_DIR="${BIFROST_RUN_DIR:-$PWD}"; \
 export BIFROST_CONFIG_DIR="${BIFROST_CONFIG_DIR:-$PWD}"; \
 export BIFROST_DIR=`pwd`; \
 
-# Is this necessary?
+# Probably not necessary
 cd $BIFROST_RUN_DIR; \
 
-# Generate run_script.sh?
+echo "Generating run_script.sh..."
 docker run \
     --env BIFROST_DB_KEY \
     --mount type=bind,source=$BIFROST_RUN_DIR,target=$BIFROST_RUN_DIR \
@@ -21,6 +21,7 @@ docker run \
         -name "`date`" \
         -out $BIFROST_RUN_DIR/bifrost_test_output; 
 
-# Run run_script.sh
-cd bifrost_test_output;
+read -p "Press enter to continue"
+echo "Running run_script.sh..."
+cd  $BIFROST_RUN_DIR/bifrost_test_output;
 bash run_script.sh;
