@@ -1,6 +1,7 @@
 .secrets/
 samples/*.fastq.gz
 output/*
+bifrost_test_output/*
 !output/info.txt
 computerome/launcher_scripts/test_post.sh
 deployment_test/
