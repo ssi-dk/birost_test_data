@@ -1,0 +1,34 @@
+{
+	"_id": {
+		"$oid": "5fc8e8cc109a465ed760737c"
+	},
+	"name": "S1",
+	"components": [],
+	"properties": {
+		"paired_reads": {
+			"summary": {
+				"data": [
+					"/home/projects/ssi_disease_surveillance/apps/bifrost_test_data/deployment_test/samples/S1_R1.fastq.gz",
+					"/home/projects/ssi_disease_surveillance/apps/bifrost_test_data/deployment_test/samples/S1_R2.fastq.gz"
+				]
+			}
+		},
+		"sample_info": {
+			"summary": {
+				"sample_name": "S1",
+				"provided_species": "Staphylococcus aureus",
+				"temp_sample_name": "S1",
+				"changed_sample_names": false,
+				"duplicated_sample_names": false,
+				"haveReads": true,
+				"haveMetaData": true
+			}
+		}
+	},
+	"report": {},
+	"metadata": {
+		"updated_at": {
+			"$date": "2020-12-03T13:31:56.902Z"
+		}
+	}
+}

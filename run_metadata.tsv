@@ -1,123 +1,124 @@
-sample_name	provided_species
-S1	Staphylococcus aureus
-S10	Staphylococcus aureus
-S100	Staphylococcus aureus
-S101	Staphylococcus aureus
-S102	Staphylococcus aureus
-S103	Escherichia coli
-S104	Escherichia coli
-S105	Escherichia coli
-S106	Escherichia coli
-S107	Escherichia coli
-S108	Staphylococcus aureus
-S109	Staphylococcus aureus
-S11	Staphylococcus aureus
-S110	Staphylococcus aureus
-S111	Escherichia coli
-S112	Escherichia coli
-S113	Escherichia coli
-S114	Escherichia coli
-S115	Escherichia coli
-S116	Staphylococcus aureus
-S117	Staphylococcus aureus
-S118	Escherichia coli
-S119	Escherichia coli
-S12	Staphylococcus aureus
-S120	Escherichia coli
-S121	Escherichia coli
-S122	Escherichia coli
-S13	Staphylococcus aureus
-S14	Staphylococcus aureus
-S15	Staphylococcus aureus
-S16	Staphylococcus aureus
-S17	Staphylococcus aureus
-S18	Staphylococcus aureus
-S19	Staphylococcus aureus
-S2	Staphylococcus aureus
-S20	Staphylococcus aureus
-S21	Staphylococcus aureus
-S22	Staphylococcus aureus
-S23	Staphylococcus aureus
-S24	Staphylococcus aureus
-S25	Staphylococcus aureus
-S26	Staphylococcus aureus
-S27	Staphylococcus aureus
-S28	Staphylococcus aureus
-S29	Staphylococcus aureus
-S3	Staphylococcus aureus
-S30	Staphylococcus aureus
-S31	Staphylococcus aureus
-S32	Staphylococcus aureus
-S33	Staphylococcus aureus
-S34	Escherichia coli
-S35	Escherichia coli
-S36	Escherichia coli
-S37	Escherichia coli
-S38	Escherichia coli
-S39	Escherichia coli
-S4	Staphylococcus aureus
-S40	Escherichia coli
-S41	Escherichia coli
-S42	Escherichia coli
-S43	Escherichia coli
-S44	Escherichia coli
-S45	Escherichia coli
-S46	Escherichia coli
-S47	Escherichia coli
-S48	Escherichia coli
-S49	Escherichia coli
-S5	Staphylococcus aureus
-S50	Escherichia coli
-S51	Escherichia coli
-S52	Escherichia coli
-S53	Escherichia coli
-S54	Escherichia coli
-S55	Escherichia coli
-S56	Escherichia coli
-S57	Escherichia coli
-S58	Escherichia coli
-S59	Escherichia coli
-S6	Staphylococcus aureus
-S60	Escherichia coli
-S61	Escherichia coli
-S62	Escherichia coli
-S63	Escherichia coli
-S64	Escherichia coli
-S65	Escherichia coli
-S66	Escherichia coli
-S67	Escherichia coli
-S68	Escherichia coli
-S69	Escherichia coli
-S7	Staphylococcus aureus
-S70	Escherichia coli
-S71	Escherichia coli
-S72	Escherichia coli
-S73	Escherichia coli
-S74	Escherichia coli
-S75	Escherichia coli
-S76	Escherichia coli
-S77	Escherichia coli
-S78	Escherichia coli
-S79	Escherichia coli
-S8	Staphylococcus aureus
-S80	Escherichia coli
-S81	Escherichia coli
-S82	Escherichia coli
-S83	Escherichia coli
-S84	Escherichia coli
-S85	Escherichia coli
-S86	Escherichia coli
-S87	Escherichia coli
-S88	Escherichia coli
-S89	Staphylococcus aureus
-S9	Staphylococcus aureus
-S90	Staphylococcus aureus
-S91	Staphylococcus aureus
-S92	Staphylococcus aureus
-S93	Escherichia coli
-S94	Escherichia coli
-S95	Escherichia coli
-S96	Escherichia coli
-S97	Escherichia coli
-S98	Escherichia coli
-S99	Escherichia coli
+sample_name	provided_species	filenames
+SRR2094561	Salmonella enterica	SRR2094561_1.fastq.gz/SRR2094561_2.fastq.gz
+S1	Staphylococcus aureus	S1_R1.fastq.gz/S1_R2.fastq.gz
+S10	Staphylococcus aureus	S10_R1.fastq.gz/S10_R2.fastq.gz
+S100	Staphylococcus aureus	S100_R1.fastq.gz/S100_R2.fastq.gz
+S101	Staphylococcus aureus	S101_R1.fastq.gz/S101_R2.fastq.gz
+S102	Staphylococcus aureus	S102_R1.fastq.gz/S102_R2.fastq.gz
+S103	Escherichia coli	S103_R1.fastq.gz/S103_R2.fastq.gz
+S104	Escherichia coli	S104_R1.fastq.gz/S104_R2.fastq.gz
+S105	Escherichia coli	S105_R1.fastq.gz/S105_R2.fastq.gz
+S106	Escherichia coli	S106_R1.fastq.gz/S106_R2.fastq.gz
+S107	Escherichia coli	S107_R1.fastq.gz/S107_R2.fastq.gz
+S108	Staphylococcus aureus	S108_R1.fastq.gz/S108_R2.fastq.gz
+S109	Staphylococcus aureus	S109_R1.fastq.gz/S109_R2.fastq.gz
+S11	Staphylococcus aureus	S11_R1.fastq.gz/S11_R2.fastq.gz
+S110	Staphylococcus aureus	S110_R1.fastq.gz/S110_R2.fastq.gz
+S111	Escherichia coli	S111_R1.fastq.gz/S111_R2.fastq.gz
+S112	Escherichia coli	S112_R1.fastq.gz/S112_R2.fastq.gz
+S113	Escherichia coli	S113_R1.fastq.gz/S113_R2.fastq.gz
+S114	Escherichia coli	S114_R1.fastq.gz/S114_R2.fastq.gz
+S115	Escherichia coli	S115_R1.fastq.gz/S115_R2.fastq.gz
+S116	Staphylococcus aureus	S116_R1.fastq.gz/S116_R2.fastq.gz
+S117	Staphylococcus aureus	S117_R1.fastq.gz/S117_R2.fastq.gz
+S118	Escherichia coli	S118_R1.fastq.gz/S118_R2.fastq.gz
+S119	Escherichia coli	S119_R1.fastq.gz/S119_R2.fastq.gz
+S12	Staphylococcus aureus	S12_R1.fastq.gz/S12_R2.fastq.gz
+S120	Escherichia coli	S120_R1.fastq.gz/S120_R2.fastq.gz
+S121	Escherichia coli	S121_R1.fastq.gz/S121_R2.fastq.gz
+S122	Escherichia coli	S122_R1.fastq.gz/S122_R2.fastq.gz
+S13	Staphylococcus aureus	S13_R1.fastq.gz/S13_R2.fastq.gz
+S14	Staphylococcus aureus	S14_R1.fastq.gz/S14_R2.fastq.gz
+S15	Staphylococcus aureus	S15_R1.fastq.gz/S15_R2.fastq.gz
+S16	Staphylococcus aureus	S16_R1.fastq.gz/S16_R2.fastq.gz
+S17	Staphylococcus aureus	S17_R1.fastq.gz/S17_R2.fastq.gz
+S18	Staphylococcus aureus	S18_R1.fastq.gz/S18_R2.fastq.gz
+S19	Staphylococcus aureus	S19_R1.fastq.gz/S19_R2.fastq.gz
+S2	Staphylococcus aureus	S2_R1.fastq.gz/S2_R2.fastq.gz
+S20	Staphylococcus aureus	S20_R1.fastq.gz/S20_R2.fastq.gz
+S21	Staphylococcus aureus	S21_R1.fastq.gz/S21_R2.fastq.gz
+S22	Staphylococcus aureus	S22_R1.fastq.gz/S22_R2.fastq.gz
+S23	Staphylococcus aureus	S23_R1.fastq.gz/S23_R2.fastq.gz
+S24	Staphylococcus aureus	S24_R1.fastq.gz/S24_R2.fastq.gz
+S25	Staphylococcus aureus	S25_R1.fastq.gz/S25_R2.fastq.gz
+S26	Staphylococcus aureus	S26_R1.fastq.gz/S26_R2.fastq.gz
+S27	Staphylococcus aureus	S27_R1.fastq.gz/S27_R2.fastq.gz
+S28	Staphylococcus aureus	S28_R1.fastq.gz/S28_R2.fastq.gz
+S29	Staphylococcus aureus	S29_R1.fastq.gz/S29_R2.fastq.gz
+S3	Staphylococcus aureus	S3_R1.fastq.gz/S3_R2.fastq.gz
+S30	Staphylococcus aureus	S30_R1.fastq.gz/S30_R2.fastq.gz
+S31	Staphylococcus aureus	S31_R1.fastq.gz/S31_R2.fastq.gz
+S32	Staphylococcus aureus	S32_R1.fastq.gz/S32_R2.fastq.gz
+S33	Staphylococcus aureus	S33_R1.fastq.gz/S33_R2.fastq.gz
+S34	Escherichia coli	S34_R1.fastq.gz/S34_R2.fastq.gz
+S35	Escherichia coli	S35_R1.fastq.gz/S35_R2.fastq.gz
+S36	Escherichia coli	S36_R1.fastq.gz/S36_R2.fastq.gz
+S37	Escherichia coli	S37_R1.fastq.gz/S37_R2.fastq.gz
+S38	Escherichia coli	S38_R1.fastq.gz/S38_R2.fastq.gz
+S39	Escherichia coli	S39_R1.fastq.gz/S39_R2.fastq.gz
+S4	Staphylococcus aureus	S4_R1.fastq.gz/S4_R2.fastq.gz
+S40	Escherichia coli	S40_R1.fastq.gz/S40_R2.fastq.gz
+S41	Escherichia coli	S41_R1.fastq.gz/S41_R2.fastq.gz
+S42	Escherichia coli	S42_R1.fastq.gz/S42_R2.fastq.gz
+S43	Escherichia coli	S43_R1.fastq.gz/S43_R2.fastq.gz
+S44	Escherichia coli	S44_R1.fastq.gz/S44_R2.fastq.gz
+S45	Escherichia coli	S45_R1.fastq.gz/S45_R2.fastq.gz
+S46	Escherichia coli	S46_R1.fastq.gz/S46_R2.fastq.gz
+S47	Escherichia coli	S47_R1.fastq.gz/S47_R2.fastq.gz
+S48	Escherichia coli	S48_R1.fastq.gz/S48_R2.fastq.gz
+S49	Escherichia coli	S49_R1.fastq.gz/S49_R2.fastq.gz
+S5	Staphylococcus aureus	S5_R1.fastq.gz/S5_R2.fastq.gz
+S50	Escherichia coli	S50_R1.fastq.gz/S50_R2.fastq.gz
+S51	Escherichia coli	S51_R1.fastq.gz/S51_R2.fastq.gz
+S52	Escherichia coli	S52_R1.fastq.gz/S52_R2.fastq.gz
+S53	Escherichia coli	S53_R1.fastq.gz/S53_R2.fastq.gz
+S54	Escherichia coli	S54_R1.fastq.gz/S54_R2.fastq.gz
+S55	Escherichia coli	S55_R1.fastq.gz/S55_R2.fastq.gz
+S56	Escherichia coli	S56_R1.fastq.gz/S56_R2.fastq.gz
+S57	Escherichia coli	S57_R1.fastq.gz/S57_R2.fastq.gz
+S58	Escherichia coli	S58_R1.fastq.gz/S58_R2.fastq.gz
+S59	Escherichia coli	S59_R1.fastq.gz/S59_R2.fastq.gz
+S6	Staphylococcus aureus	S6_R1.fastq.gz/S6_R2.fastq.gz
+S60	Escherichia coli	S60_R1.fastq.gz/S60_R2.fastq.gz
+S61	Escherichia coli	S61_R1.fastq.gz/S61_R2.fastq.gz
+S62	Escherichia coli	S62_R1.fastq.gz/S62_R2.fastq.gz
+S63	Escherichia coli	S63_R1.fastq.gz/S63_R2.fastq.gz
+S64	Escherichia coli	S64_R1.fastq.gz/S64_R2.fastq.gz
+S65	Escherichia coli	S65_R1.fastq.gz/S65_R2.fastq.gz
+S66	Escherichia coli	S66_R1.fastq.gz/S66_R2.fastq.gz
+S67	Escherichia coli	S67_R1.fastq.gz/S67_R2.fastq.gz
+S68	Escherichia coli	S68_R1.fastq.gz/S68_R2.fastq.gz
+S69	Escherichia coli	S69_R1.fastq.gz/S69_R2.fastq.gz
+S7	Staphylococcus aureus	S7_R1.fastq.gz/S7_R2.fastq.gz
+S70	Escherichia coli	S70_R1.fastq.gz/S70_R2.fastq.gz
+S71	Escherichia coli	S71_R1.fastq.gz/S71_R2.fastq.gz
+S72	Escherichia coli	S72_R1.fastq.gz/S72_R2.fastq.gz
+S73	Escherichia coli	S73_R1.fastq.gz/S73_R2.fastq.gz
+S74	Escherichia coli	S74_R1.fastq.gz/S74_R2.fastq.gz
+S75	Escherichia coli	S75_R1.fastq.gz/S75_R2.fastq.gz
+S76	Escherichia coli	S76_R1.fastq.gz/S76_R2.fastq.gz
+S77	Escherichia coli	S77_R1.fastq.gz/S77_R2.fastq.gz
+S78	Escherichia coli	S78_R1.fastq.gz/S78_R2.fastq.gz
+S79	Escherichia coli	S79_R1.fastq.gz/S79_R2.fastq.gz
+S8	Staphylococcus aureus	S8_R1.fastq.gz/S8_R2.fastq.gz
+S80	Escherichia coli	S80_R1.fastq.gz/S80_R2.fastq.gz
+S81	Escherichia coli	S81_R1.fastq.gz/S81_R2.fastq.gz
+S82	Escherichia coli	S82_R1.fastq.gz/S82_R2.fastq.gz
+S83	Escherichia coli	S83_R1.fastq.gz/S83_R2.fastq.gz
+S84	Escherichia coli	S84_R1.fastq.gz/S84_R2.fastq.gz
+S85	Escherichia coli	S85_R1.fastq.gz/S85_R2.fastq.gz
+S86	Escherichia coli	S86_R1.fastq.gz/S86_R2.fastq.gz
+S87	Escherichia coli	S87_R1.fastq.gz/S87_R2.fastq.gz
+S88	Escherichia coli	S88_R1.fastq.gz/S88_R2.fastq.gz
+S89	Staphylococcus aureus	S89_R1.fastq.gz/S89_R2.fastq.gz
+S9	Staphylococcus aureus	S9_R1.fastq.gz/S9_R2.fastq.gz
+S90	Staphylococcus aureus	S90_R1.fastq.gz/S90_R2.fastq.gz
+S91	Staphylococcus aureus	S91_R1.fastq.gz/S91_R2.fastq.gz
+S92	Staphylococcus aureus	S92_R1.fastq.gz/S92_R2.fastq.gz
+S93	Escherichia coli	S93_R1.fastq.gz/S93_R2.fastq.gz
+S94	Escherichia coli	S94_R1.fastq.gz/S94_R2.fastq.gz
+S95	Escherichia coli	S95_R1.fastq.gz/S95_R2.fastq.gz
+S96	Escherichia coli	S96_R1.fastq.gz/S96_R2.fastq.gz
+S97	Escherichia coli	S97_R1.fastq.gz/S97_R2.fastq.gz
+S98	Escherichia coli	S98_R1.fastq.gz/S98_R2.fastq.gz
+S99	Escherichia coli	S99_R1.fastq.gz/S99_R2.fastq.gz
